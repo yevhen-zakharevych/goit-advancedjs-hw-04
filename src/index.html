@@ -8,7 +8,24 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <h2>goit-advancedjs-hw-04</h2>
+    <form class="search-form" id="search-form">
+      <input
+        type="text"
+        name="searchQuery"
+        autocomplete="off"
+        placeholder="Search images..."
+      />
+      <button type="submit">Search</button>
+    </form>
+
+    <div class="gallery">
+      <!-- Картки зображень -->
+    </div>
+
+    <div class="load-more-block">
+      <button id="load-more" type="button">Load more</button">
+    </div>
+
     <script type="module" src="./js/main.js"></script>
   </body>
 </html>
